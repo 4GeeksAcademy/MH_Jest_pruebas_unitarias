@@ -15,8 +15,8 @@ function fromEuroToDollar(euros){
 }
  function fromYenToPound(yenes){
     let euros = yenes / oneEuroIs.JPY;
-    let pound = euros * oneEuroIs.GBP;
-    return pound;
+    let libras = euros * oneEuroIs.GBP;
+    return libras;
 
  }
 module.exports = {fromDollarToYen,fromEuroToDollar,fromYenToPound, oneEuroIs};
